@@ -327,14 +327,15 @@ body a:hover {
 }
 .online2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 20px;
+  font-family: Times New Roman;
 }
 .online3 {
   justify-content: center;
   margin-top: 30px;
-  font-size: 3rem;
+  font-size: 27px;
   text-align: center;
-
+  font-family: Times New Roman;
   }
   .fitur {
     text-align: center;
@@ -395,19 +396,10 @@ body a:hover {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10vh;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 0.005;
   }
-
-.isii {
-  font-family: Sans-Serif;
-  color: #00d49b;
-  font-size: 40px;
-  text-align: center;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  height: 500px;
-    }
   
 #ikonn{
   display: flex;
@@ -418,3 +410,15 @@ body a:hover {
   font-size: 50px;
   color: rgba(255, 255, 255, 0.9);
 }
+
+.isii {
+  font-family: Times New Roman;
+  color: #00d49b;
+  font-size: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  
+    }
